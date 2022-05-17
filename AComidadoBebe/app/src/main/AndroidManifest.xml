@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AComidaDoBebe">
         <activity
+            android:name=".ui.newmember.NewMemberActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
