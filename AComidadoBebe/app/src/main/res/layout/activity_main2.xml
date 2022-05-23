@@ -8,16 +8,10 @@
 
 
     <EditText
+        style="@style/EditText"
         android:id="@+id/et_email"
         android:inputType="textEmailAddress"
         android:autofillHints="emailAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="30dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginBottom="13dp"
-        android:padding="20dp"
-        android:background="@color/gray_text"
         android:drawableStart="@drawable/ic_email"
         android:drawablePadding="15dp"
         android:hint="@string/email"
@@ -37,20 +31,13 @@
         app:layout_constraintStart_toStartOf="parent"/>
 
     <EditText
+        style="@style/EditText"
         android:id="@+id/et_password"
         android:inputType="textPassword"
         android:autofillHints="password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="30dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginBottom="13dp"
-        android:padding="20dp"
-        android:background="@color/gray_text"
         android:drawableStart="@drawable/ic_password"
         android:drawablePadding="15dp"
         android:hint="@string/password"
-        android:imeOptions="actionGo"
         app:layout_constraintBottom_toTopOf="@+id/btn_signin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -74,8 +61,8 @@
         android:layout_marginEnd="30dp"
         android:layout_marginStart="30dp"
         android:padding="15dp"
+        android:background="@drawable/btn_bg_green"
         android:textColor="@color/white"
-        android:background="@color/light_green"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -103,7 +90,7 @@
         android:layout_marginEnd="30dp"
         android:layout_marginStart="30dp"
         android:padding="15dp"
-        android:background="@color/white"
+        android:background="@drawable/btn_bg_white"
         android:textColor="@color/dark_green"
         app:layout_constraintTop_toBottomOf="@id/line"
         app:layout_constraintStart_toStartOf="parent"
