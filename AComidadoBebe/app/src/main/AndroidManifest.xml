@@ -13,6 +13,9 @@
             android:name=".ui.newmember.NewMemberActivity"
             android:exported="false" />
         <activity
+            android:name=".ui.signin.SignInActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
