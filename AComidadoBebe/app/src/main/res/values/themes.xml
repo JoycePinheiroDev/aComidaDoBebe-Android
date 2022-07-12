@@ -7,6 +7,7 @@
         <item name="colorAccent">@color/teal_200</item>
         <!-- Customize your theme here. -->
     </style>
+
     <style name="EditText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -17,6 +18,7 @@
         <item name="android:background">@color/gray_text</item>
         <item name="android:drawablePadding">15dp</item>
     </style>
+
     <style name="DefaultButton">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -24,10 +26,20 @@
         <item name="android:layout_marginStart">30dp</item>
         <item name="android:padding">18dp</item>
     </style>
+
     <style name="Line">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">2dp</item>
         <item name="android:layout_marginStart">30dp</item>
         <item name="android:layout_marginEnd">30dp</item>
     </style>
+
+    <style name="Theme.AComidaDoBebe.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AComidaDoBebe.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.AComidaDoBebe.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
