@@ -7,6 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".ui.signup.SignUpActivity">
 
+
+  <ImageButton
+      android:id="@+id/back_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ic_back"
+      android:background="@color/white"
+      android:padding="25dp"
+
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
   <TextView
       android:id="@+id/textView"
       android:layout_width="wrap_content"
@@ -28,7 +40,7 @@
       android:id="@+id/et_name"
       style="@style/EditText"
       android:layout_marginBottom="12dp"
-      android:drawableStart="@drawable/ic_email"
+      android:drawableStart="@drawable/ic_person"
       android:hint="@string/name"
 
       android:inputType="text"
@@ -67,7 +79,7 @@
   <EditText
       android:id="@+id/et_password"
       style="@style/EditText"
-      android:drawableStart="@drawable/ic_email"
+      android:drawableStart="@drawable/ic_lock"
       android:hint="@string/password"
 
       android:inputType="textPassword"
@@ -88,7 +100,7 @@
       style="@style/DefaultButton"
       android:background="@drawable/btn_bg_green"
       android:textColor="@color/white"
-      android:text="@string/signin"
+      android:text="@string/signup"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
